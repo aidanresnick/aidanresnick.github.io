@@ -1,0 +1,35 @@
+---
+layout: post
+title: Meta Analysis of Research
+subtitle: Studying General Cognitive Ability in Education
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [Art of Data]
+---
+
+# Analysis of Data
+*Using Standardized Test Scores to Include General Cognitive Ability in Education Research and Policy*, conducted by Jonathan Wai, Matt I. Brown, and Christopher F. Chabris, references empirical data that allows them to conclude that people who conduct education research or determine education policy should seek to take general cognitive ability, denoated as *g*,into consideration. According to the researchers, the most effective method of evaluating *g* is through standardized test scores. Furthermore, in Study 1, the distribution of SAT scores between the 25th and 75th percentile scores for 1339 colleges and universities is graphed in order to measure *g* at each school. In study 2, various occupations are graphed against the percentages of every student who attended a college or university with an average test score in the top 1% in order to determine the selectivity of each profession with standardized test scores.
+    
+Nonetheless, there are some aspects of the data that are flawed. For instance, as a general truth, it seems a bit unfair to use standardized tests as a completely acceptable measure of *g*. Although the researchers dive into in-depth analysis on how standardized tests are a far greater measure of *g* than wealth or socioeconomic class, they do note that there is approximately a 90% or 95% overlap between standardized test scores and *g* of a similar caliber. This leaves 5% or 10% of the population with standardized test scores that are not representative of their *g*, creating significant potential for error. Ideally, if the researches wanted to feel very comfortable referencing standardized test scores as an accurate indicator of *g*, they would have prefered an overlap closer to 100%. Perhaps they could have searched for a more precise way to measure *g*, such as Lumosity games.
+
+Although this flaw in the data is significant, the researches did make a wise decision that allowed for more precise results. College average standardized test scores often may be skewed by outliers, such as honors college applicants, legacy applicants, althetics or music applicants, and in-state applicants. However, this study effectively accounts for this reality by deeming the average the average of the 25th percentile and the 75th percentile, removing outliers from consideration. This adjustment by the researchers allowed the measured averages for each college to better represent the true expected SAT score at each college, which is exactly what they were looking for. Altogether, although the data has one glaring flaw, adjusting the average is a maneuver that likely prompts more precise results.
+
+
+# Analysis of Results
+Just as it is important that the researches use precise data is that the researchers draw accurate conclusions from the precise data. In this experiment, the primary goal was to determine the role of *g* in education research and education policy, and the results show that *g* is worth considering when studying education. Just as researchers and policy-makers consider the strength of teachers and the strength of schools, they should also consider *g*, according to the researchers. But are these results necessarily fair to draw?
+
+In one sense, because the data is relatively imprecise, the reseachers seem forced to draw imprecise conclusions about the relationship between scores on academic achievement tests and scores on cognitive ability tests. For instance, the researchers write:
+
+> "Cognitive *g* and academic achievement *g* are roughly the same from a measurement perspective, meaning the variance account for by *g* among cognitive ability tests is roughly the same from a measurement perspective, meaning the variance accounted for by *g* among cognitive ability tests is roughly the same as that account for by *g* among academic achievement tests."
+
+The repetition of the world "roughly" perfectly encapsulates the primary issue with this sentence. "Roughly the same" can refer to a wide variety of conclusions, so we, as the readers, do not gain precise insight into the relationship between standardized test scores and *g*. Because we fail to understand this relationship completely, the results of this experiment appear flawwed at least in one sense.
+
+However, in the Discussion section of this research paper, the researchers communicate the extent to which standardized test scores are not representative of *g*. Indicating that these scores are imperfect measures of *g* is a key step to crafting a far more honest research paper. With the exception of the reach to use standardized test scores as a measure of *g*, the results in this experiment are extremely promising and analyzed well. Each p-value referenced is less than 0.01, indicating the statistical significance of each data-driven aspect of this study, and the conclusions they draw based on the statistically significant results draw on exactly what the various correlations indicate: *g* must be accounted for in education research and education policy.
+
+
+# "Publish or Perish"
+After analying the data and the results, I now must consider whether this study is worth publishing. As researchers and data scientists seek to get their work published, they often may consider skewing their results for statistical significance. In this experiment, the statistical significance of the results is evident, so we can feel confident that there is no deliberate lie embedded within this experiment.
+
+That said, as previously mentioned, the results may be relatively misleading given that standardized test scores are not a perfect measure of *g*. Because of this reality, we must consider whether this error is so significant that it should prevent the research from appearing on the internet. In a sense, it is never a good idea to lead readers to drawing conclusions that are misrepresentatve of reality. That said, readers are exposed to careful outlines of the potential issues that may arise from this error, so the researchers account for their error.
+
+Because it is difficult to obtain a precise measurement of *g*, I believe that this study should be published. If there were a clear way to measure *g* so there would not be any error in this regard, I would suggest revising this experiment to reference that instead of standardized test scores. That said, it appears as of standardized test scores serve as one of the best indicators of *g* available, so the researchers may not have been able to find a more precise measurement. Furthermore, given the importance of understanding the role of *g* in education, this study should be published for readers to internalize as long as they understand this potentially misleading source of error.
