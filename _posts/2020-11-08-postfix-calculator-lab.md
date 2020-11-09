@@ -12,7 +12,7 @@ tags: [Art of Data]
     import csv
 
     #To evaluate postfix notation, we need to use a stack
-    #This creates the Stack class
+    #Creates the Stack class
     class Stack:
         #Constructor method in the Stack class
         def __init__(self, stack=[]):
@@ -89,6 +89,7 @@ tags: [Art of Data]
             print(evaluate(row))
     #Uses the average function to find the average of all final values
     print(average(average_final))
+
 
 # Evaluation of Each Postfix Expression
 
@@ -204,3 +205,41 @@ The average of all of my final values is 529.91.
 One thing about postfix notation that makes it tricky to evaluate is its variance. Although every postfix expression begins with at least two numbers, the distribution of numbers and operations after that is inconsistent. Thus, a stack with a for loop is very helpful for evaluating postfix notation. With a stack, you can arrange and rearrange the elements in each expression in a stack that we can manipulate to evaluate it. By manipulating it with 'push' and 'pop' based on whether the top element in the stack is a number or an operation, you can rearrange the elements to use each operation to combine two numbers. If the top element is an operation, you want to add it to the top of the stack to combine the following two numbers. If the top element is a number, you can pop it so that the following operation acts on the two most recently popped numbers. These manipulations, plus the peek feature, which allows you to view the top element in the stack, help work through each postfix expression to generate a final value.
 
 # Lab Process
+
+    #We are referencing a csv file, so we need to import csv
+
+    #To evaluate postfix notation, we need to use a stack
+    #Creates the Stack class
+        #Constructor method in the Stack class
+        #Defines pop
+        #Defines push
+        #Defines peek
+        #Defines __repr__ so Python turns the class into a String
+
+    #Defines average function to take the average of values in a list
+
+    #Creates an evaluate function for postfix notation
+        #Sets up the stack that is used to evaluate postfix notation
+        #For loop for elements in the list
+            #If the element in the list is an operation
+                #Push the element
+            #If the element in the list is a number    
+                #Variables to pop elements
+                #If addition
+                    #Adds the popped elements
+                #If subtraction
+                    #Subtracts the popped elements
+                #If multiplication
+                    #Multiplies the popped elements
+        #Return value
+
+    #Creates empty list for final values
+
+    #Opens the csv file
+        #Goes through the data
+            #Adds final values to average_final
+            #Prints each row
+            #Prints the final value of each row
+    #Uses the average function to find the average of all final values
+
+Above is the pseudocode that helped to guide me through the lab. Throughout my experience coding, regardless of the language I am working with, I have benefited greatly from using pseudocode to organize my thoughts and ideas. In this lab, I thought to divide my work into four general steps. The first step was to implement the Stack class into my code so I could use it to evaluate postfix expessions. I received assistance in class on refining my Stack class. The second step was to implement the 'average' function into my code, but I was able to do this easily because I had used this in my last lab. The third step was to create the 'evaluate' function, which evaluates any postfix expression using the Stack class; this process is outlined above. The fourth step was to implement the 'evaluate' function into calculate_me.csv, which evaluated the postfix expressions in this data set, and to implement the 'average' function for the final values, which were averaged to generate one final average.
