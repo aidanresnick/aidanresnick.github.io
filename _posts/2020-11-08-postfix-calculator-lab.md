@@ -92,10 +92,115 @@ tags: [Art of Data]
 
 # Evaluation of Each Postfix Expression
 
+The final value of each postfix expression goes in order as follows:
+
+* 6
+* 40
+* -162
+* -692
+* 2
+* -19
+* 93
+* 95
+* -11
+* 49000
+* 38
+* 84
+* -100
+* 115
+* 3
+* 142
+* 791
+* 82
+* -192
+* -4
+* 143
+* 3060
+* 137
+* 384
+* 11
+* 48
+* 805
+* 11
+* -2700
+* 190
+* -96
+* 1715
+* 60
+* 48
+* -25
+* -4
+* -135
+* -77
+* 663
+* 40
+* 10
+* -81
+* -15
+* -311
+* 1095
+* 1076
+* 1260
+* -204
+* 91
+* 416
+* -26
+* 34
+* -19
+* -343
+* 11
+* -110
+* 192
+* -63
+* -2
+* 9
+* 13
+* -33
+* -223
+* 152
+* 75
+* 54
+* 517
+* 2110
+* 412
+* 10
+* -571
+* 3432
+* 23
+* -48
+* 1764
+* 7
+* 240
+* -2
+* -936
+* 9
+* 1
+* 5
+* 414
+* 386
+* 128
+* -115
+* 1
+* -18
+* 0
+* -16186
+* 1391
+* 29
+* 233
+* 38
+* 63
+* 1560
+* 591
+* -36
+* 917
+* -25
+
 # Average of Final Values
+
+The average of all of my final values is 529.91.
 
 # How a Stack Is Used to Evaluate Postfix Notation
 
-One thing about postfix notation that makes it tricky to evaluate is its 
+One thing about postfix notation that makes it tricky to evaluate is its variance. Although every postfix expression begins with at least two numbers, the distribution of numbers and operations after that is inconsistent. Thus, a stack with a for loop is very helpful for evaluating postfix notation. With a stack, you can arrange and rearrange the elements in each expression in a stack that we can manipulate to evaluate it. By manipulating it with 'push' and 'pop' based on whether the top element in the stack is a number or an operation, you can rearrange the elements to use each operation to combine two numbers. If the top element is an operation, you want to add it to the top of the stack to combine the following two numbers. If the top element is a number, you can pop it so that the following operation acts on the two most recently popped numbers. These manipulations, plus the peek feature, which allows you to view the top element in the stack, help work through each postfix expression to generate a final value.
 
 # Lab Process
