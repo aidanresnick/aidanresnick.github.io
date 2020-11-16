@@ -41,6 +41,4 @@ In this experiment, the members of the treatment group will download social medi
 
 # Potential Biases
 
-
-Selection bias
-    Depends on the social media activity
+There are two potential biases that could significantly skew the conclusions of this study. The first is selection bias. In order to avoid an observational study, I decided to sample only humans who are not on social media so they can be randomly assigned to one of the two groups, but this may introduce a flaw: the sample may not be representative of the population. The subset of the population that does not have social media, the sample frame, could be made up of more introverted members of the population. Thus, when they download social media, they will have less of a desire to interact with people, thus decreasing the number of consistent interactions of the treatment group. Similarly, the other potential flaw is our inability to control the social media activity of the members of the treatment group. Part of the study is allowing them to use social media as one normally would, but different levels of posting, liking, commenting, and messaging on social media could result in a different number of close interactions. Thus, it is important that the members of the control group use social media similarly.
