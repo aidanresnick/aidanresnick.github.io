@@ -29,9 +29,16 @@ My null hypothesis is people who are on social media do not have more social rel
 
 # Variables and Treatments
 
+The variable among people in my sample is whether or not they download a social media account. The treatment is downloading social media and using it to connect with people and the control is not altering behavior in any way shape or form.
+
 # Treatment Groups
+
+Among the members of the sample, everyone is randomly assigned to one of the two groups.
 
 # Experiment
 
+
+
 # Potential Biases
 
+Selection bias
