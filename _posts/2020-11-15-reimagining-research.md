@@ -25,6 +25,8 @@ Within this sample frame, I believe interval sampling is the most effective form
 
 # Hypotheses
 
+My null hypothesis is people who are on social media do not have more social relationships than people who are not on social media. To that end, my alternative hypothesis is people who are on social media have more social relationships than people who are not on social media.
+
 # Variables and Treatments
 
 # Treatment Groups
