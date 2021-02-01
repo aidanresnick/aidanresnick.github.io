@@ -45,6 +45,10 @@ In this lab, I worked with the country vaccinations dataset, which outlined the 
 
 # Methods
 
-In my analysis, I looked at five different variables: country, date, people_fully_vaccianted_per_hundred, people_fully_vaccinated, and vaccine. There were several different conclusions to draw, so I had to determine the most important information in this dataset. I set out to answer three questions... Which countries have implemented the vaccine most effectively? What is the trend of the number of vaccines used each day? What is the most common type of vaccine used? I decided to use a variety of visualizations to answer these questions.
+In my analysis, I looked at five different variables: country, date, people_fully_vaccianted_per_hundred, people_fully_vaccinated, and vaccine. There were several different conclusions to draw, so I had to determine the most important information in this dataset. I set out to answer three questions... Which countries have implemented the vaccine most effectively? What is the trend of the number of vaccines used each day? What is the most common type of vaccine used? I decided to use a variety of visualizations to answer these questions, ranging from countplots to lineplots. Let's see what I found out!
 
 # Conclusions
+
+To determining which countries are most represented in the data set, I used a simple countplot:
+
+![alt text](https://github.com/aidanresnick.github.io/img/country.png "Countplot of 'country'")
