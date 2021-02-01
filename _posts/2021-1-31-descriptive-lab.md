@@ -51,6 +51,6 @@ In my analysis, I looked at five different variables: country, date, people_full
 
 To determining which countries are most represented in the data set, I used a simple countplot:
 
-!(https://github.com/aidanresnick/img/country.png "Countplot of 'country'")
+![country](https://github.com/aidanresnick/img/country.png "Countplot of 'country'")
 
-Using the graph above, I can see that Wales, Scotland, Northern Ireland, and Canada appear most frequently in the dataset. While this is
+Using the graph above, I can see that Wales, Scotland, Northern Ireland, and Canada appear most frequently in the dataset. While this is useful information, 
