@@ -55,5 +55,5 @@ To determining which countries are most represented in the data set, I used a si
 
 Using the graph above, I can see that Wales, Scotland, Northern Ireland, and Canada appear most frequently in the dataset. While this is useful information, it does not tell me much about the actual important information in the dataset. So let's look at the countries that have the highest proportion of fully vaccinated people. To do this, I used the "group by" function on the 'country' variable, and I found the following graph:
 
-![Barplot of 'country vs. people_fully_vaccinated_per_hundred'](https://github.com/aidanresnick/img/per_hundred.png "Barplot of 'country vs. people_fully_vaccinated_per_hundred'")
+![Barplot of 'country vs. people_fully_vaccinated_per_hundred'](/../assets/img/per_hundred.png "Barplot of 'country vs. people_fully_vaccinated_per_hundred'")
 
