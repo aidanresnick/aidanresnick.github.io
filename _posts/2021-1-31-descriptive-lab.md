@@ -51,9 +51,24 @@ In my analysis, I looked at five different variables: country, date, people_full
 
 To determining which countries are most represented in the data set, I used a simple countplot:
 
-![Countplot of 'country'](https://github.com/aidanresnick/img/country.png "Countplot of 'country'")
+![Countplot of 'country'](../assets/img/country.png "Countplot of 'country'")
 
 Using the graph above, I can see that Wales, Scotland, Northern Ireland, and Canada appear most frequently in the dataset. While this is useful information, it does not tell me much about the actual important information in the dataset. So let's look at the countries that have the highest proportion of fully vaccinated people. To do this, I used the "group by" function on the 'country' variable, and I found the following graph:
 
-![Barplot of 'country vs. people_fully_vaccinated_per_hundred'](/../assets/img/per_hundred.png "Barplot of 'country vs. people_fully_vaccinated_per_hundred'")
+![Barplot of 'country vs. people_fully_vaccinated_per_hundred'](../assets/img/per_hundred.png "Barplot of 'country vs. people_fully_vaccinated_per_hundred'")
 
+We can find that these four countries also lead in percentage of people fully vaccinated, so they seem to have been dealing with vaccinations best out of all the countries on this dataset.
+
+To answer the question about the general trend, I grouped by date to figure out the dates on which the most COVID-19 vaccines have been handed out. I used the lineplot below:
+
+![Lineplot of 'date vs people_fully_vaccinated'](../assets/img/date.png "Lineplot of 'date vs people_fully_vaccinated'")
+
+Based on the lineplot, we can see that there have been more people fully vaccinated on almost every subsequent day. This is a positive sign for the future, as it shows that vaccines are rising at an exponential rate. That said, there is still quite a way to go, as no country has vaccinated over 50 percent of its population.
+
+To answer the final question, we can look at a simple countplot of vaccines after grouping by vaccines. Let's find out which vaccines are most commonly used.
+
+![Countplot of 'vaccine'](../assets/img/vaccine.png "Countplot of 'vaccine'")
+
+We now can see that the most common vaccine is Pfizer/BioNTech. Although this might not be the most helpful information for us, it surely could play an important role for those involved in medical fields.
+
+Overall, this was a very interesting and productive dataset to analyze, and I learned a lot about dataframes in the process.
