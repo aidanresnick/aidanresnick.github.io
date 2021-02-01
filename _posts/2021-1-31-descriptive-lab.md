@@ -67,7 +67,7 @@ Based on the lineplot, we can see that there have been more people fully vaccina
 
 To answer the final question, we can look at a simple countplot of vaccines after grouping by vaccines. Let's find out which vaccines are most commonly used.
 
-![Countplot of 'vaccine'](../assets/img/vaccine.png "Countplot of 'vaccine'")
+![Countplot of 'vaccine'](../assets/img/vaccine.png)
 
 We now can see that the most common vaccine is Pfizer/BioNTech. Although this might not be the most helpful information for us, it surely could play an important role for those involved in medical fields.
 
