@@ -8,3 +8,24 @@ tags: [Art of Data]
 ---
 
 In this lab, I decided to analyze a dataset of chess matches on lichess.org. As an experienced competitive chess player, I found this dataset to be fascinating, for I was able to shed light on ideas about which I have always been wondering. Chess is a remarkably complex game, so it is practically impossible for this dataset to capture everything. However, aside from time management, it portrays an excellent picture of each match in the dataset. I hope to learn about the relationship between white's rating and the number of moves in the opening to see how stronger and weaker players open the game. Also, I strove to determine if players play differently based on whether or not the game is rated to understand the extent to which chess players care about their ratings. Let's dive into what I found!
+
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import altair as alt
+    
+    alt.data_transformers.disable_max_rows()
+    chess_path = "lichess.csv"
+    chess_df = pd.read_csv(chess_path)
+    
+    chess_path = chess_df
+
+    #Visualize the density of various opening lengths
+    alt.Chart(chess_df).transform_density(
+        'opening_ply',
+        as_=['opening_ply', 'density'],
+    ).mark_area().encode(
+        x="opening_ply:Q",
+        y='density:Q',
+    ).properties(title="Density Plot of the Number of Moves in the Opening")
+
+Hello
