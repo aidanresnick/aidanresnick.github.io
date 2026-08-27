@@ -1,0 +1,49 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Aidan Resnick
+  given: Aidan
+  family: Resnick
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+role: Quantitative Trader · Baseball Researcher
+bio: |
+  I'm a quantitative trader at Chicago Trading Company and a baseball
+  researcher in my free time. My recent work develops "pitcher greeks":
+  continuous, differentiable stuff models whose sensitivities show how run
+  value responds to changes in a pitch's velocity, movement, and approach
+  angles.
+
+affiliations:
+  - name: Chicago Trading Company
+    url: https://www.chicagotrading.com/
+
+links:
+  - icon: at-symbol
+    url: mailto:aidan.j.resnick@gmail.com
+    label: E-mail Me
+  # TODO: uncomment and fill in the profiles you want to show
+  # - icon: brands/github
+  #   url: https://github.com/YOUR_USERNAME
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/YOUR_PROFILE/
+
+interests:
+  - Pitch quality ("stuff") modeling
+  - Sensitivity analysis & interpretable ML
+  - Sports analytics
+
+# TODO: replace with your real education history (or delete this section)
+education:
+  - degree: 'TODO: Your degree'
+    institution: 'TODO: Your school'
+    start: 2020-09-01
+    end: 2024-05-31
+
+# TODO: replace with the experience you want public (or delete this section)
+experience:
+  - role: 'TODO: Your role'
+    org: 'TODO: Organization'
+    start: 2024-06-01
