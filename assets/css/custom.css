@@ -1,0 +1,3 @@
+/* Tighten the gap between the article byline and the body (the large
+   bottom margin was sized for a featured image we don't render). */
+article .mt-4.mb-16 { margin-bottom: 1.25rem; }
