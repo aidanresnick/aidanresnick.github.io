@@ -83,7 +83,7 @@ Selection manufactures a correlation in the observed data between low velocity a
 
 We have already seen this effect hard at work. Recall the trough at 88.7 mph in the smooth velocity fit. This is not a claim that a pitcher, all else equal, is better off at sub-88.7-mph velocities than at 88.7 mph. Rather, it's a claim that 88.7 mph four-seam fastballs perform worse than their leftward neighbors. Why? Below 88.7 mph, survival demands ever more compensation, so in-sample four-seams carry ever more hidden skill.
 
-The data can check this. If the trough reflected some physical truth about a non-monotonic relationship between velocity and outcomes, it would appear in within-pitcher relationships. If instead the trough is manufactured by selection, it would live entirely in the comparison between pitchers. The test is to measure every pitch's velocity against its own pitcher's average, and its outcome likewise.
+The data can check this. If the trough reflects some physical truth about a non-monotonic relationship between velocity and outcomes, it would appear in within-pitcher relationships. If instead the trough is manufactured by selection, it would live entirely in the comparison between pitchers. The test is to measure every pitch's velocity against its own pitcher's average, and its outcome likewise.
 
 ![Within-pitcher velocity vs xRV](fig_velo_within.png)
 
