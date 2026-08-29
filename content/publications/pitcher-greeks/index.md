@@ -14,6 +14,8 @@ summary: |
 
 featured: true
 reading_time: false
+image:
+  preview_only: true
 ---
 
 ## 1. Introduction
