@@ -1,14 +1,7 @@
 # Navigation Links
-#   To link a homepage section, specify the URL as a hash `#` followed by the section's `id`.
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
-    url: /
+  - name: Research
+    url: publication/
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
