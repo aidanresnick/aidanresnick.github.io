@@ -10,10 +10,10 @@ name:
   pronouns: ''
 role: Quant Trader
 bio: |
-  I'm a quant trader. In my free time I develop "pitcher greeks":
-  continuous, differentiable stuff models whose sensitivities show how run
-  value responds to changes in a pitch's velocity, movement, and approach
-  angles.
+  I'm a quant trader. I graduated from the University of Chicago in 2025
+  with a B.S. in Statistics, a B.A. in Economics, and an M.S. in Financial
+  Mathematics. Away from work, my interests are poker, chess, and fantasy
+  sports.
 
 links:
   - icon: at-symbol
@@ -25,19 +25,17 @@ links:
   #   url: https://github.com/aidanresnick
 
 interests:
-  - Pitch quality ("stuff") modeling
-  - Sensitivity analysis & interpretable ML
-  - Sports analytics
+  - Poker
+  - Chess
+  - Fantasy sports
 
-# TODO: replace with your real education history (or delete this section)
 education:
-  - degree: 'TODO: Your degree'
-    institution: 'TODO: Your school'
-    start: 2020-09-01
-    end: 2024-05-31
-
-# TODO: replace with the experience you want public (or delete this section)
-experience:
-  - role: 'TODO: Your role'
-    org: 'TODO: Organization'
-    start: 2024-06-01
+  - degree: M.S. Financial Mathematics
+    institution: University of Chicago
+    end: 2025-06-01
+  - degree: B.S. Statistics
+    institution: University of Chicago
+    end: 2025-06-01
+  - degree: B.A. Economics
+    institution: University of Chicago
+    end: 2025-06-01
