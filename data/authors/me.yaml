@@ -8,12 +8,12 @@ name:
   alternate: ''
   pronunciation: ''
   pronouns: ''
-role: Quant Trader · Baseball Researcher
+role: Quant Trader
 bio: |
-  I'm a quant trader and a baseball researcher in my free time. My recent
-  work develops "pitcher greeks": continuous, differentiable stuff models
-  whose sensitivities show how run value responds to changes in a pitch's
-  velocity, movement, and approach angles.
+  I'm a quant trader. In my free time I develop "pitcher greeks":
+  continuous, differentiable stuff models whose sensitivities show how run
+  value responds to changes in a pitch's velocity, movement, and approach
+  angles.
 
 links:
   - icon: at-symbol
