@@ -1,5 +1,5 @@
 ---
-title: 'Pitcher Greeks'
+title: 'Pitcher Greeks: First Principles, Stuff Models, and Derivatives'
 authors:
   - me
 date: '2026-08-28T00:00:00Z'
