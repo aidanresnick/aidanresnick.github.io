@@ -6,5 +6,5 @@ main:
     url: /
     weight: 10
   - name: Research
-    url: publication/
+    url: publications/
     weight: 20
