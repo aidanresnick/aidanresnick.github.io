@@ -13,6 +13,7 @@ summary: |
   before anything moves.
 
 featured: true
+reading_time: false
 ---
 
 ## 1. Introduction
