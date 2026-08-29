@@ -19,11 +19,10 @@ links:
   - icon: at-symbol
     url: mailto:aidan.j.resnick@gmail.com
     label: E-mail Me
-  # TODO: uncomment and fill in the profiles you want to show
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/aidanresnick/
   # - icon: brands/github
-  #   url: https://github.com/YOUR_USERNAME
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/in/YOUR_PROFILE/
+  #   url: https://github.com/aidanresnick
 
 interests:
   - Pitch quality ("stuff") modeling
